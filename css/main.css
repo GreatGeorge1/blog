@@ -1,0 +1,240 @@
+body{
+    font-family: 'Merriweather', serif;
+    padding-top: 51px;
+    background-color: #f7f7f7;
+    font-size:16px;
+    width:100%;
+}
+
+
+.top{
+    margin-bottom: 0px;
+    background-color: #ffffff;
+    color: #999999;
+    width: auto;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #999999;
+}
+.blog_img{
+    text-align: center;
+    margin-bottom:0px;
+    background-color: #f7f7f7;
+    padding: 0;
+}
+
+/* main */
+.content-item .thumbnail, .sidebar-item .thumbnail{
+    padding: 0px;
+    margin:0px;
+    margin-bottom: 20px;
+    border: 0px;
+    border-radius: 0;
+}
+
+.content-item, .sidebar-item{
+    background-color: #ffffff;
+    padding: 0px;
+    margin-bottom: 25px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* sidebar */
+.sidebar-item-header{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Jura', sans-serif;
+    font-size: 1.2em;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color:#999999;
+}
+
+.sidebar-item-text{ 
+    padding: 20px 20px 15px 20px;
+    text-align: left;
+}
+/* соц сети   */
+.sidebar-socials{
+    list-style-type: none;
+    padding: 60px;
+    padding-top: 0;
+    padding-bottom:30px;
+    margin-bottom: 30px;
+    margin-top:-10px;
+}
+
+.sidebar-socials li{
+    padding-right: 15px;
+    
+}
+.sidebar-socials li a{
+    display:block;
+    text-decoration: none;
+    color:#999999;
+    
+    /* width:25px; */
+}
+.sidebar-popular{
+    margin-top: -10px;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    line-height: 2;
+    padding-bottom: 40px;
+}
+.sidebar-popular a{
+    color: #999999;
+    text-decoration: none;
+}
+.sidebar-subscr{
+    padding-bottom: 40px;
+}
+/* content */
+
+.content-item--theme{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Jura', sans-serif;
+    font-size: 1.2em;
+    padding-top: 30px;
+    color:#999999;
+}
+.content-item--head{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Jura', sans-serif;
+    font-size: 2em;
+    padding-bottom: 15px;
+    color:#999999;
+}
+
+.content-item-header hr{
+    color: black;
+    border-top:1px solid black;
+    width: 30px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    color:#999999;
+}
+
+.content-item-text{
+    padding: 20px 30px 20px 30px;
+}
+.content-item-btn{
+    display: flex;
+    justify-content: center;
+    font-family: 'Jura', sans-serif;
+    margin-bottom:20px;
+    
+}
+.content-item-btn button{
+    border:0;
+    text-transform: uppercase;
+    color:#999999;
+}
+.btn-hr{
+    color: black;
+    border-top:1px solid black;
+    width: 30px;
+    margin-top:10px;
+    margin-bottom:0px;
+}
+
+.content-btn button{
+    color:#999999;
+    border:1px solid #999999;
+    border-radius:0;
+    text-transform: uppercase;
+    background-color: #f7f7f7;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.content-btn{  
+    font-family: 'Jura', sans-serif;
+    background-color: #f7f7f7;
+    margin-bottom: 50px;
+}
+
+
+  костыль
+.content-related-item .thumbnail{
+    padding: 0;
+    padding-right: 5px;
+    padding-top: 0; 
+    margin:0px;
+    margin-bottom: 20px;
+    border: 0px;
+    border-radius: 0;
+    background-color: #f7f7f7;
+}
+
+
+@media screen and (max-width:767px){
+.container-body{
+    padding-left: 0;
+    padding-right:0; 
+    text-align: justify;
+}
+.content{
+    padding:0px;
+}
+.content-item-text{
+    padding: 0px;
+}
+.sidebar{
+    padding-right: 0px;
+}
+.content{
+    padding-left: 0px;
+}
+}
+
+
+@media screen and (max-width:991px){
+.sidebar-item-header{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.content-item-text{
+    padding:15px;
+}
+.content-item--theme{
+    padding-top: 20px;
+}
+.content-item--head{
+    padding-bottom: 5px;
+}
+.sidebar-socials{
+    list-style-type: none;
+    padding: 0px;
+    padding-left: 20px;
+    padding-bottom:20px;
+    margin-bottom: 20px;
+    margin-top:-10px;
+    
+}
+.sidebar-socials li{
+    padding-left: 0;
+    padding-right: 27px;
+}
+.sidebar-popular{
+    padding-bottom: 15px;
+}
+.sidebar-subscr{
+    padding-bottom: 15px;
+}
+}
+
+@media screen and (max-width: 1199px) {
+    .sidebar-socials{
+        list-style-type: none;
+        padding-left: 30px;
+        padding-right: 0;
+        padding-bottom:20px;
+        margin-bottom: 30px;
+        margin-top:-10px;
+        
+}
+}
+
